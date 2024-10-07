@@ -71,7 +71,7 @@ async def get_symbols_async(session: aiohttp.ClientSession) -> List[str]:
 async def main():
     os.makedirs(DIRECTORY, exist_ok=True)
     
-    start_time = datetime(2024, 6, 1, 0, 0)
+    start_time = datetime(2024, 4, 1, 0, 0)
     end_time = datetime(2024, 10, 1, 0, 0)
 
     conn = aiohttp.TCPConnector(ssl=False) 
